@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RnCViHDD8tV/EOTsWL9KsXhK6NfX7NqKD7SIs/I1D6bolVoOy/F4MTBEogwhtcDhxQTdFeH4Co4mB6CtmJ7VtQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nadine.mohamed\\Desktop\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nadine.mohamed\\.nuget\\packages\\odetocode.usenodemodules\\3.0.0\\odetocode.usenodemodules.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
