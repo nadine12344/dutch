@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nadine.mohamed\\Desktop\\DutchTreat\\DutchTreat\\DutchTreat.csproj": {}
+    "C:\\Users\\windows\\Desktop\\dutch\\DutchTreat\\DutchTreat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nadine.mohamed\\Desktop\\DutchTreat\\DutchTreat\\DutchTreat.csproj": {
+    "C:\\Users\\windows\\Desktop\\dutch\\DutchTreat\\DutchTreat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nadine.mohamed\\Desktop\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
+        "projectUniqueName": "C:\\Users\\windows\\Desktop\\dutch\\DutchTreat\\DutchTreat.csproj",
         "projectName": "DutchTreat",
-        "projectPath": "C:\\Users\\nadine.mohamed\\Desktop\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
-        "packagesPath": "C:\\Users\\nadine.mohamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nadine.mohamed\\Desktop\\DutchTreat\\DutchTreat\\obj\\",
+        "projectPath": "C:\\Users\\windows\\Desktop\\dutch\\DutchTreat\\DutchTreat.csproj",
+        "packagesPath": "C:\\Users\\windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\windows\\Desktop\\dutch\\DutchTreat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nadine.mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

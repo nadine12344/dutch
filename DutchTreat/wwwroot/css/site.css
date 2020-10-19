@@ -2,5 +2,23 @@
     
 }
 h2{
-    color:red
+    color:blue;
 }
+#loginToggle{
+cursor:pointer;
+}
+.popup{
+padding:5px;
+border:solid 2px black;
+display:inline-block
+
+}
+.popup input{
+    width:200px;
+}
+ .popup label {
+        width: 150px;
+    }
+    .popup input[type=checkbox],.popup input[type=submit]{
+        width: auto;
+    }
