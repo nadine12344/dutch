@@ -2,7 +2,7 @@
     
 }
 h2{
-    color:blue;
+    color:red;
 }
 #loginToggle{
 cursor:pointer;
@@ -22,3 +22,12 @@ display:inline-block
     .popup input[type=checkbox],.popup input[type=submit]{
         width: auto;
     }
+    menu li{
+        display:inline;
+    }
+    menu li::after{
+        content:" | ";
+    }
+        menu li:last-of-type::after {
+            content: "";
+        }

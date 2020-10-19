@@ -15,7 +15,7 @@
 	var $loginToggle = $("#loginToggle");
 	var $popup = $(".popup");
 	$loginToggle.on("click", function () {
-		$popup.fadeIntoggle(1000);
+		$popup.toggle(1000);
 	});
 
 });

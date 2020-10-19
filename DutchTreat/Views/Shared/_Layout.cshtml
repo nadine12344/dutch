@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dutch treat</title>
+
+    <link href="~/css/site.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+     <h1>Welcome </h1>
+        <menu>
+            <ul>
+                <li><a asp-controller="App" asp-action="Index">Home</a></li>
+                <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
+                <li><a asp-controller="App" asp-action="Aboutus">About</a></li>
+            </ul>
+        </menu>
+    </header>
+    <h2>Dutch treat</h2>
+    @RenderBody()
+  <footer>This is the footer of pages</footer>
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/index.js"></script>
+
+</body>
+</html>
