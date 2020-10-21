@@ -2,27 +2,32 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Dutch treat</title>
-
+    <title>Dutch treat: @ViewBag.Title</title>
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/site.css" rel="stylesheet" />
 
 </head>
 <body>
-    <header>
-     <h1>Welcome </h1>
-        <menu>
-            <ul>
-                <li><a asp-controller="App" asp-action="Index">Home</a></li>
-                <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
-                <li><a asp-controller="App" asp-action="Aboutus">About</a></li>
+    <header class="container">
+        <nav class="navbar navbar-dark bg-dark navbar-expand">
+            <h1 class="navbar-brand  text-center">Welcome </h1>
+
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" asp-controller="App" asp-action="Index">Home</a></li>
+                <li class="nav-item"><a class="nav-link" asp-controller="App" asp-action="Contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" asp-controller="App" asp-action="Aboutus">About</a></li>
             </ul>
-        </menu>
+        </nav>
     </header>
-    <h2>Dutch treat</h2>
-    @RenderBody()
-  <footer>This is the footer of pages</footer>
+    <section class="container">
+        <h2 class=" text-center">@ViewBag.Title</h2>
+        @RenderBody()
+    </section>
+  <footer class="container text-center">This is the footer of pages</footer>
     <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="~/js/index.js"></script>
+    <script src="~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("scripts",false)
 
 </body>
 </html>
